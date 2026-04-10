@@ -16,7 +16,7 @@ export default function Home() {
               Nos Services de <span className="text-primary italic">Remorquage</span>
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Professionnel du remorquage auto et dépannage voiture sur Paris et Île-de-France
+              Professionnel du remorquage auto et dépannage voiture sur Le Chesnay, Versailles et alentours – service 24/7
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -35,7 +35,7 @@ export default function Home() {
               Zone d&apos;<span className="text-primary italic">Intervention</span>
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Remorquage auto et dépannage voiture partout en Île-de-France
+              Remorquage auto et dépannage voiture partout Chesnay, Versailles et alentours 
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -62,7 +62,7 @@ export default function Home() {
               Pourquoi Choisir Notre <span className="text-primary italic">Service</span> ?
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Experts du remorquage auto à Paris et Île-de-France
+              Experts du remorquage auto à Chesnay, Versailles et alentours 
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
