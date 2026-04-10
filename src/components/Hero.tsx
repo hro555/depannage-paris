@@ -13,12 +13,12 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
           <span className="text-white">Remorquage Auto</span>
           <br />
-          <span className="text-primary">Paris &amp; Île-de-France</span>
+          <span className="text-primary">Le Chesnay, Versailles et alentours</span>
         </h1>
 
         <p className="text-lg md:text-xl text-white/60 mb-10 max-w-2xl mx-auto leading-relaxed">
           Dépannage et remorquage de voiture rapide et professionnel. Intervention
-          en moins de 30 minutes partout à Paris et en Île-de-France.
+          en moins de 30 minutes à Le Chesnay, Versailles et alentours.
         </p>
 
         <a
@@ -36,7 +36,7 @@ export default function Hero() {
           {[
             { icon: "clock", title: "24h/24", subtitle: "Disponible jour et nuit" },
             { icon: "bolt", title: "30 min", subtitle: "Intervention rapide" },
-            { icon: "map", title: "Île-de-France", subtitle: "Toute la région" },
+            { icon: "map", title: "Versailles", subtitle: "et alentours" },
           ].map((badge) => (
             <div
               key={badge.title}

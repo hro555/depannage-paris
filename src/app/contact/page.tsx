@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { PHONE, PHONE_HREF, EMAIL, ADDRESS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact | Dépannage Auto Paris",
+  title: "Contact | Dépannage Auto Le Chesnay - Versailles",
   description:
-    "Contactez notre service de dépannage automobile à Paris. Disponible 24h/24, 7j/7. Appel, email ou formulaire de contact.",
+    "Contactez notre service de dépannage automobile à Le Chesnay, Versailles et alentours. Disponible 24h/24, 7j/7. Appel, email ou formulaire de contact.",
 };
 
 export default function ContactPage() {

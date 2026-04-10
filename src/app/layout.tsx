@@ -15,7 +15,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Dépannage & Remorquage 24h/24 Île-de-France`,
+    default: `${SITE_NAME} | Dépannage & Remorquage 24h/24 Le Chesnay, Versailles`,
     template: `%s | ${SITE_NAME}`,
   },
   description:

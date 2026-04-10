@@ -3,9 +3,9 @@ import CTASection from "@/components/CTASection";
 import { ZONES, PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Zones d'intervention | Dépannage Île-de-France",
+  title: "Zones d'intervention | Dépannage Le Chesnay, Versailles et alentours",
   description:
-    "Dépannage et remorquage dans toute l'Île-de-France : Paris, Boulogne-Billancourt, Versailles, Saint-Denis, Créteil, Nanterre et plus.",
+    "Dépannage et remorquage à Le Chesnay, Versailles et alentours : Boulogne-Billancourt, Saint-Denis, Créteil, Nanterre et plus.",
 };
 
 export default function ZonesPage() {
@@ -17,7 +17,7 @@ export default function ZonesPage() {
             Zone d&apos;<span className="text-primary italic">Intervention</span>
           </h1>
           <p className="text-lg text-white/50 max-w-3xl">
-            Notre flotte de dépanneuses couvre l&apos;ensemble de Paris et de l&apos;Île-de-France.
+            Notre flotte de dépanneuses couvre Le Chesnay, Versailles et alentours.
             Intervention rapide garantie en 30 minutes.
           </p>
         </div>
@@ -55,18 +55,16 @@ export default function ZonesPage() {
       <section className="py-16 bg-dark">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            Dépannage automobile en Île-de-France
+            Dépannage automobile à Le Chesnay, Versailles et alentours
           </h2>
           <div className="space-y-4 text-white/50 leading-relaxed">
             <p>
-              Basés à Paris, nous intervenons dans l&apos;ensemble des départements
-              d&apos;Île-de-France : Paris (75), Hauts-de-Seine (92), Seine-Saint-Denis (93),
-              Val-de-Marne (94), Yvelines (78), Essonne (91), Val-d&apos;Oise (95) et
-              Seine-et-Marne (77).
+              Basés à Le Chesnay, nous intervenons dans le secteur de Versailles et alentours :
+              Yvelines (78), Hauts-de-Seine (92) et les communes voisines.
             </p>
             <p>
-              Que vous soyez en panne sur le périphérique, sur une autoroute d&apos;Île-de-France
-              ou dans une rue de banlieue, notre équipe de dépanneurs professionnels arrive
+              Que vous soyez en panne sur l&apos;autoroute A13, A86, N12
+              ou dans une rue de Le Chesnay ou Versailles, notre équipe de dépanneurs professionnels arrive
               en moyenne en 30 minutes.
             </p>
             <p>

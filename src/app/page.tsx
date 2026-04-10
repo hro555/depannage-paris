@@ -83,7 +83,7 @@ export default function Home() {
                   </svg>
                 ),
                 title: "Intervention Rapide",
-                text: "Nos dépanneurs interviennent en moins de 30 minutes partout à Paris et en Île-de-France.",
+                text: "Nos dépanneurs interviennent en moins de 30 minutes à Le Chesnay, Versailles et alentours.",
               },
               {
                 icon: (
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-white/40 mb-4">
             Service professionnel de remorquage automobile et dépannage voiture.<br />
-            Intervention 24h/24 - 7j/7 dans le secteur de Paris et Île-de-France
+            Intervention 24h/24 - 7j/7 à Le Chesnay, Versailles et alentours
           </p>
           <a
             href={PHONE_HREF}

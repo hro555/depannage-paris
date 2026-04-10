@@ -3,10 +3,10 @@ export const SITE_URL = "https://depannage-auto-paris.fr";
 export const PHONE = "07 51 02 85 80";
 export const PHONE_HREF = "tel:+33751028580";
 export const EMAIL = "mactadevosyan91@gmail.com";
-export const ADDRESS = "12 Rue de la République, 75001 Paris";
+export const ADDRESS = "Le Chesnay, Versailles et alentours";
 
 export const ZONES = [
-  { name: "Paris intra-muros", slug: "paris" },
+  { name: "Le Chesnay", slug: "le-chesnay" },
   { name: "Boulogne-Billancourt", slug: "boulogne-billancourt" },
   { name: "Saint-Denis", slug: "saint-denis" },
   { name: "Versailles", slug: "versailles" },
@@ -25,7 +25,7 @@ export const SERVICES = [
     title: "Remorquage de véhicule",
     slug: "remorquage",
     description:
-      "Transport sécurisé de votre véhicule vers le garage ou la destination de votre choix dans toute l'Île-de-France.",
+      "Transport sécurisé de votre véhicule vers le garage ou la destination de votre choix à Le Chesnay, Versailles et alentours.",
     icon: "truck",
   },
   {
@@ -46,7 +46,7 @@ export const SERVICES = [
     title: "Dépannage autoroute",
     slug: "depannage-autoroute",
     description:
-      "Intervention rapide sur les autoroutes et voies rapides d'Île-de-France, A1, A4, A6, A13, périphérique.",
+      "Intervention rapide sur les autoroutes et voies rapides autour de Versailles, A13, A86, N12.",
     icon: "road",
   },
   {
