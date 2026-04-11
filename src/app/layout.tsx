@@ -53,6 +53,11 @@ export default function RootLayout({
     <html lang="fr" className={`${geistSans.variable} h-full antialiased`}>
       <head>
         <Script
+          id="cookieyes"
+          src="https://cdn-cookieyes.com/client_data/851647ee0a87e14f540d69b5/script.js"
+          strategy="beforeInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18074344411"
           strategy="afterInteractive"
         />
