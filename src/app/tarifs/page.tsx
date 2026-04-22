@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const TARIFS = [
   {
     name: "Dépannage sur place",
-    price: "À partir de 89€",
+    price: "À partir de 69€",
     features: [
       "Diagnostic sur place",
       "Réparation si possible",
@@ -21,7 +21,7 @@ const TARIFS = [
   },
   {
     name: "Remorquage Le Chesnay",
-    price: "À partir de 119€",
+    price: "À partir de 95€",
     features: [
       "Transport jusqu'à 20 km",
       "Plateau ou dépanneuse",
@@ -32,7 +32,7 @@ const TARIFS = [
   },
   {
     name: "Remorquage Versailles et alentours",
-    price: "À partir de 159€",
+    price: "À partir de 129€",
     features: [
       "Transport jusqu'à 50 km",
       "Banlieue et grande couronne",
