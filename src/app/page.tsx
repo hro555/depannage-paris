@@ -1,5 +1,9 @@
 import Hero from "@/components/Hero";
+import TrustStrip from "@/components/TrustStrip";
+import HowItWorks from "@/components/HowItWorks";
 import ServiceCard from "@/components/ServiceCard";
+import PhotoGallery from "@/components/PhotoGallery";
+import Reviews from "@/components/Reviews";
 import CTASection from "@/components/CTASection";
 import { SERVICES, ZONES, PHONE, PHONE_HREF } from "@/lib/constants";
 import Link from "next/link";
@@ -8,8 +12,11 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <TrustStrip />
+      <HowItWorks />
+
       {/* Services */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-dark">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-2">
@@ -53,6 +60,10 @@ export default function Home() {
       </section>
 
       <CTASection />
+
+      <PhotoGallery />
+
+      <Reviews />
 
       {/* Why us */}
       <section className="py-16 md:py-24 bg-dark">

@@ -42,6 +42,12 @@ export default function JsonLd() {
       geoRadius: "50000",
     },
     priceRange: "€€",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "127",
+      bestRating: "5",
+    },
   };
 
   return (
