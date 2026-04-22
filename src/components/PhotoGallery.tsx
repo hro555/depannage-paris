@@ -6,7 +6,7 @@ const PHOTOS = [
   { src: "/photos/depannage-remarquage-03.jpg", alt: "Remorquage de véhicule en panne" },
   { src: "/photos/depannage-remarquage-04.jpg", alt: "Dépanneuse en intervention" },
   { src: "/photos/depannage-remarquage-05.jpg", alt: "Transport de véhicule accidenté" },
-  { src: "/photos/depannage-remarquage-09.jpg", alt: "Remorquage rapide Versailles" },
+  { src: "/photos/depannage-remarquage-09.jpg", alt: "Remorquage rapide Paris ouest" },
   { src: "/photos/depannage-remarquage-12.jpg", alt: "Assistance routière 24h/24" },
   { src: "/photos/depannage-remarquage-16.jpg", alt: "Dépannage sur autoroute" },
   { src: "/photos/depannage-remarquage-18.jpg", alt: "Plateau dépanneuse professionnel" },
@@ -21,7 +21,7 @@ export default function PhotoGallery() {
             Nos <span className="text-primary italic">Interventions</span>
           </h2>
           <p className="text-white/50 max-w-2xl mx-auto">
-            Quelques exemples de nos interventions récentes à Le Chesnay, Versailles et alentours
+            Quelques exemples de nos interventions récentes à Paris et alentours
           </p>
         </div>
 

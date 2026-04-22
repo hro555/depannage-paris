@@ -6,16 +6,16 @@ export default function JsonLd() {
     "@type": "AutoRepair",
     name: SITE_NAME,
     description:
-      "Service de dépannage et remorquage automobile 24h/24 à Le Chesnay, Versailles et alentours",
+      "Service de dépannage et remorquage automobile 24h/24 à Paris et alentours ouest",
     url: SITE_URL,
     telephone: PHONE,
     email: EMAIL,
     address: {
       "@type": "PostalAddress",
       streetAddress: "12 Rue de la République",
-      addressLocality: "Le Chesnay",
-      postalCode: "78150",
-      addressRegion: "Yvelines",
+      addressLocality: "Paris",
+      postalCode: "75000",
+      addressRegion: "Île-de-France",
       addressCountry: "FR",
     },
     geo: {

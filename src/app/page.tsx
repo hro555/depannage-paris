@@ -23,7 +23,7 @@ export default function Home() {
               Nos Services de <span className="text-primary italic">Remorquage</span>
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Professionnel du remorquage auto et dépannage voiture sur Le Chesnay, Versailles et alentours – service 24/7
+              Professionnel du remorquage auto et dépannage voiture à Paris et alentours ouest – service 24/7
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,7 +42,7 @@ export default function Home() {
               Zone d&apos;<span className="text-primary italic">Intervention</span>
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Remorquage auto et dépannage voiture partout Chesnay, Versailles et alentours 
+              Remorquage auto et dépannage voiture à Paris et dans l&apos;ouest parisien
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -73,7 +73,7 @@ export default function Home() {
               Pourquoi Choisir Notre <span className="text-primary italic">Service</span> ?
             </h2>
             <p className="text-white/50 max-w-2xl mx-auto">
-              Experts du remorquage auto à Chesnay, Versailles et alentours 
+              Experts du remorquage auto à Paris et alentours ouest
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -94,7 +94,7 @@ export default function Home() {
                   </svg>
                 ),
                 title: "Intervention Rapide",
-                text: "Nos dépanneurs interviennent en moins de 30 minutes à Le Chesnay, Versailles et alentours.",
+                text: "Nos dépanneurs interviennent en moins de 30 minutes à Paris et dans l'ouest parisien.",
               },
               {
                 icon: (
@@ -124,7 +124,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-white/40 mb-4">
             Service professionnel de remorquage automobile et dépannage voiture.<br />
-            Intervention 24h/24 - 7j/7 à Le Chesnay, Versailles et alentours
+            Intervention 24h/24 - 7j/7 à Paris et alentours ouest
           </p>
           <a
             href={PHONE_HREF}

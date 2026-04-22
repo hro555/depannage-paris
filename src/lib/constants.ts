@@ -1,23 +1,23 @@
-export const SITE_NAME = "Dépannage Auto Le Chesnay - Service 24/7";
+export const SITE_NAME = "Dépannage Auto Paris - Service 24/7";
 export const SITE_URL = "https://depannage-auto-paris.fr";
 export const PHONE = "07 51 02 85 80";
 export const PHONE_HREF = "tel:+33751028580";
 export const EMAIL = "mactadevosyan91@gmail.com";
-export const ADDRESS = "Le Chesnay, Versailles et alentours";
+export const ADDRESS = "Paris et alentours ouest";
 
 export const ZONES = [
-  { name: "Le Chesnay", slug: "le-chesnay" },
+  { name: "Paris", slug: "paris" },
   { name: "Boulogne-Billancourt", slug: "boulogne-billancourt" },
-  { name: "Saint-Denis", slug: "saint-denis" },
+  { name: "Neuilly-sur-Seine", slug: "neuilly-sur-seine" },
   { name: "Versailles", slug: "versailles" },
-  { name: "Créteil", slug: "creteil" },
+  { name: "Le Chesnay", slug: "le-chesnay" },
+  { name: "Saint-Cloud", slug: "saint-cloud" },
+  { name: "Rueil-Malmaison", slug: "rueil-malmaison" },
   { name: "Nanterre", slug: "nanterre" },
-  { name: "Évry-Courcouronnes", slug: "evry-courcouronnes" },
-  { name: "Bobigny", slug: "bobigny" },
-  { name: "Pontoise", slug: "pontoise" },
-  { name: "Melun", slug: "melun" },
-  { name: "Argenteuil", slug: "argenteuil" },
-  { name: "Montreuil", slug: "montreuil" },
+  { name: "Suresnes", slug: "suresnes" },
+  { name: "Issy-les-Moulineaux", slug: "issy-les-moulineaux" },
+  { name: "Meudon", slug: "meudon" },
+  { name: "Chaville", slug: "chaville" },
 ] as const;
 
 export const SERVICES = [
@@ -25,7 +25,7 @@ export const SERVICES = [
     title: "Remorquage de véhicule",
     slug: "remorquage",
     description:
-      "Transport sécurisé de votre véhicule vers le garage ou la destination de votre choix à Le Chesnay, Versailles et alentours.",
+      "Transport sécurisé de votre véhicule vers le garage ou la destination de votre choix à Paris et ses alentours ouest.",
     icon: "truck",
   },
   {
@@ -46,7 +46,7 @@ export const SERVICES = [
     title: "Dépannage autoroute",
     slug: "depannage-autoroute",
     description:
-      "Intervention rapide sur les autoroutes et voies rapides autour de Versailles, A13, A86, N12.",
+      "Intervention rapide sur les autoroutes et voies rapides : A13, A86, N12, périphérique ouest.",
     icon: "road",
   },
   {

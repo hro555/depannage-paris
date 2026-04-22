@@ -6,7 +6,7 @@ import { SERVICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Nos Services de Dépannage Auto",
   description:
-    "Remorquage, dépannage sur place, assistance accident, dépannage autoroute, transport de véhicule. Service 24h/24 à Le Chesnay, Versailles et alentours.",
+    "Remorquage, dépannage sur place, assistance accident, dépannage autoroute, transport de véhicule. Service 24h/24 à Paris et ouest parisien.",
 };
 
 export default function ServicesPage() {
@@ -19,7 +19,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-lg text-white/50 max-w-3xl">
             Découvrez l&apos;ensemble de nos prestations de dépannage et remorquage
-            disponibles 24h/24 à Le Chesnay, Versailles et alentours.
+            disponibles 24h/24 à Paris et dans l&apos;ouest parisien.
           </p>
         </div>
       </section>

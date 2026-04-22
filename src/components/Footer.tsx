@@ -9,8 +9,8 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-bold text-lg mb-4">{SITE_NAME}</h3>
           <p className="text-white/40 text-sm leading-relaxed">
-            Service de dépannage et remorquage automobile disponible 24h/24 et 7j/7 à Le Chesnay,
-            Versailles et alentours. Intervention rapide garantie.
+            Service de dépannage et remorquage automobile disponible 24h/24 et 7j/7 à Paris
+            et dans tout l&apos;ouest parisien. Intervention rapide garantie.
           </p>
         </div>
 

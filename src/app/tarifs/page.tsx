@@ -5,7 +5,7 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Tarifs Dépannage & Remorquage",
   description:
-    "Tarifs transparents pour nos services de dépannage et remorquage à Le Chesnay, Versailles et alentours. Devis gratuit, pas de frais cachés.",
+    "Tarifs transparents pour nos services de dépannage et remorquage à Paris et alentours. Devis gratuit, pas de frais cachés.",
 };
 
 const TARIFS = [
@@ -20,7 +20,7 @@ const TARIFS = [
     ],
   },
   {
-    name: "Remorquage Le Chesnay",
+    name: "Remorquage Paris",
     price: "À partir de 95€",
     features: [
       "Transport jusqu'à 20 km",
@@ -31,7 +31,7 @@ const TARIFS = [
     popular: true,
   },
   {
-    name: "Remorquage Versailles et alentours",
+    name: "Remorquage ouest parisien",
     price: "À partir de 129€",
     features: [
       "Transport jusqu'à 50 km",

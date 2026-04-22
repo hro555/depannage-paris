@@ -16,11 +16,11 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Dépannage & Remorquage 24h/24 Le Chesnay, Versailles`,
+    default: `${SITE_NAME} | Dépannage & Remorquage 24h/24 Paris`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Service de dépannage et remorquage automobile 24h/24 et 7j/7 à Chesnay. Intervention rapide, agréé assurances, devis gratuit.",
+    "Service de dépannage et remorquage automobile 24h/24 et 7j/7 à Paris et ouest parisien. Intervention rapide, agréé assurances, devis gratuit.",
   keywords: [
     "dépannage auto paris",
     "remorquage paris",
