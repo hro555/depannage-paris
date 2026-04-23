@@ -3,11 +3,14 @@ import { PHONE, PHONE_HREF } from "@/lib/constants";
 export default function Hero() {
   return (
     <section className="relative bg-dark overflow-hidden">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-dark via-dark/90 to-dark" />
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-transparent" />
-      </div>
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero-bg.jpg')" }}
+      />
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/65" />
+      <div className="absolute inset-0 bg-gradient-to-t from-dark via-transparent to-dark/40" />
 
       <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-32 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
@@ -40,7 +43,7 @@ export default function Hero() {
           ].map((badge) => (
             <div
               key={badge.title}
-              className="bg-dark-lighter border border-white/10 rounded-xl px-6 py-4 flex flex-col items-center gap-1 min-w-[140px]"
+              className="bg-dark-lighter/80 backdrop-blur-sm border border-white/10 rounded-xl px-6 py-4 flex flex-col items-center gap-1 min-w-[140px]"
             >
               <div className="text-primary mb-1">
                 {badge.icon === "clock" && (
