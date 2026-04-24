@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
           <span className="text-white">Remorquage Auto</span>
           <br />
-          <span className="text-primary">Paris &amp; alentours</span>
+          <span className="text-primary">Chesnay, Versailles, Paris &amp; alentours</span>
         </h1>
 
         <p className="text-lg md:text-xl text-white/60 mb-10 max-w-2xl mx-auto leading-relaxed">

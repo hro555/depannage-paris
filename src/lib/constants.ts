@@ -1,4 +1,4 @@
-export const SITE_NAME = "Dépannage Auto Paris - Service 24/7";
+export const SITE_NAME = "Dépannage et remorquage de voiture rapide - 24/7";
 export const SITE_URL = "https://depannage-auto-paris.fr";
 export const PHONE = "07 51 02 85 80";
 export const PHONE_HREF = "tel:+33751028580";
