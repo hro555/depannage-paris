@@ -24,6 +24,10 @@ export default function Hero() {
           en moins de 30 minutes à Paris et dans tout l&apos;ouest parisien.
         </p>
 
+        <div className="inline-flex flex-col items-center gap-2">
+          <span className="text-red-500 font-bold text-sm uppercase tracking-wider">
+            Urgence immédiate
+          </span>
         <a
           href={PHONE_HREF}
           className="inline-flex items-center gap-3 bg-primary hover:bg-primary-dark text-white font-bold px-10 py-4 rounded-xl text-lg transition-colors shadow-lg shadow-primary/25"
@@ -33,6 +37,7 @@ export default function Hero() {
           </svg>
           Appelez {PHONE}
         </a>
+        </div>
 
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-12">
