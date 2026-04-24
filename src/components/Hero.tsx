@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/65" />
       <div className="absolute inset-0 bg-gradient-to-t from-dark via-transparent to-dark/40" />
 
-      <div className="relative max-w-7xl mx-auto px-4 py-20 md:py-32 text-center">
+      <div className="relative max-w-7xl mx-auto px-4 pt-10 pb-20 md:pt-10 md:pb-32 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
           <span className="text-white">Remorquage Auto</span>
           <br />
