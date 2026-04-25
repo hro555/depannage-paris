@@ -5,7 +5,8 @@ import ServiceCard from "@/components/ServiceCard";
 import PhotoGallery from "@/components/PhotoGallery";
 import Reviews from "@/components/Reviews";
 import CTASection from "@/components/CTASection";
-import { SERVICES, ZONES, PHONE, PHONE_HREF } from "@/lib/constants";
+import { SERVICES, ZONES, PHONE } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 import Link from "next/link";
 
 export default function Home() {
@@ -126,22 +127,16 @@ export default function Home() {
             Service professionnel de remorquage automobile et dépannage voiture.<br />
             Intervention 24h/24 - 7j/7 à Paris et alentours ouest
           </p>
-          <a
-            href={PHONE_HREF}
-            className="text-primary text-3xl font-extrabold hover:underline"
-          >
+          <PhoneLink className="text-primary text-3xl font-extrabold hover:underline">
             {PHONE}
-          </a>
+          </PhoneLink>
           <div className="mt-6">
-            <a
-              href={PHONE_HREF}
-              className="inline-flex items-center gap-3 bg-primary hover:bg-primary-dark text-white font-bold px-8 py-3 rounded-xl transition-colors"
-            >
+            <PhoneLink className="inline-flex items-center gap-3 bg-primary hover:bg-primary-dark text-white font-bold px-8 py-3 rounded-xl transition-colors">
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               {PHONE}
-            </a>
+            </PhoneLink>
           </div>
         </div>
       </section>

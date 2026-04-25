@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CTASection from "@/components/CTASection";
 import { ZONES, PHONE, PHONE_HREF } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 export const metadata: Metadata = {
   title: "Zones d'intervention | Dépannage Paris et ouest parisien",
@@ -40,12 +41,9 @@ export default function ZonesPage() {
                   Intervention rapide 24h/24, 7j/7. Nos dépanneurs connaissent parfaitement
                   le secteur de {zone.name} pour une prise en charge optimale.
                 </p>
-                <a
-                  href={PHONE_HREF}
-                  className="text-primary font-semibold hover:underline"
-                >
+                <PhoneLink className="text-primary font-semibold hover:underline">
                   Appeler pour {zone.name} &rarr;
-                </a>
+                </PhoneLink>
               </article>
             ))}
           </div>
@@ -69,9 +67,9 @@ export default function ZonesPage() {
             </p>
             <p>
               N&apos;hésitez pas à nous contacter au{" "}
-              <a href={PHONE_HREF} className="text-primary font-semibold">
+              <PhoneLink className="text-primary font-semibold">
                 {PHONE}
-              </a>{" "}
+              </PhoneLink>{" "}
               pour une intervention immédiate ou un devis gratuit.
             </p>
           </div>

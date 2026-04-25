@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { SITE_NAME, PHONE, PHONE_HREF } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 const NAV_LINKS = [
   { href: "/", label: "Accueil" },
@@ -43,15 +44,12 @@ export default function Header() {
         </ul>
 
         {/* CTA desktop */}
-        <a
-          href={PHONE_HREF}
-          className="hidden md:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg transition-colors text-sm"
-        >
+        <PhoneLink className="hidden md:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg transition-colors text-sm">
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
           </svg>
           {PHONE}
-        </a>
+        </PhoneLink>
 
         {/* Mobile burger */}
         <button
@@ -85,12 +83,9 @@ export default function Header() {
               </li>
             ))}
           </ul>
-          <a
-            href={PHONE_HREF}
-            className="mt-3 block text-center bg-primary hover:bg-primary-dark text-white font-bold px-5 py-3 rounded-lg transition-colors text-sm"
-          >
+          <PhoneLink className="mt-3 block text-center bg-primary hover:bg-primary-dark text-white font-bold px-5 py-3 rounded-lg transition-colors text-sm">
             Appeler maintenant
-          </a>
+          </PhoneLink>
         </div>
       )}
     </header>

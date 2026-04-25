@@ -1,4 +1,4 @@
-import { PHONE_HREF } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 export default function TrustStrip() {
   const items = [
@@ -45,9 +45,8 @@ export default function TrustStrip() {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {items.map((item) => (
-            <a
+            <PhoneLink
               key={item.title}
-              href={PHONE_HREF}
               className="flex items-center gap-3 group"
             >
               <div className="text-primary shrink-0">{item.icon}</div>
@@ -57,7 +56,7 @@ export default function TrustStrip() {
                 </div>
                 <div className="text-white/40 text-xs">{item.subtitle}</div>
               </div>
-            </a>
+            </PhoneLink>
           ))}
         </div>
       </div>

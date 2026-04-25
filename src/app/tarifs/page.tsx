@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import CTASection from "@/components/CTASection";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 export const metadata: Metadata = {
   title: "Tarifs Dépannage & Remorquage",
@@ -85,8 +86,7 @@ export default function TarifsPage() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={PHONE_HREF}
+                <PhoneLink
                   className={`block text-center font-bold py-3 rounded-xl transition-colors ${
                     tarif.popular
                       ? "bg-primary hover:bg-primary-dark text-white"
@@ -94,7 +94,7 @@ export default function TarifsPage() {
                   }`}
                 >
                   Appeler maintenant
-                </a>
+                </PhoneLink>
               </div>
             ))}
           </div>
@@ -107,12 +107,9 @@ export default function TarifsPage() {
               Pour un transport longue distance ou une situation particulière,
               contactez-nous pour un devis gratuit et adapté.
             </p>
-            <a
-              href={PHONE_HREF}
-              className="text-primary font-semibold hover:underline text-lg"
-            >
+            <PhoneLink className="text-primary font-semibold hover:underline text-lg">
               {PHONE}
-            </a>
+            </PhoneLink>
           </div>
         </div>
       </section>

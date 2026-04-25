@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITE_NAME, PHONE, PHONE_HREF, EMAIL, ADDRESS, ZONES, SERVICES } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 export default function Footer() {
   return (
@@ -52,9 +53,9 @@ export default function Footer() {
           <h3 className="text-white font-bold text-lg mb-4">Contact</h3>
           <ul className="space-y-3 text-sm">
             <li>
-              <a href={PHONE_HREF} className="hover:text-primary transition-colors font-semibold text-primary text-lg">
+              <PhoneLink className="hover:text-primary transition-colors font-semibold text-primary text-lg">
                 {PHONE}
-              </a>
+              </PhoneLink>
             </li>
             <li>
               <a href={`mailto:${EMAIL}`} className="text-white/40 hover:text-primary transition-colors">

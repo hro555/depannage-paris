@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 const PHOTOS = [
   { src: "/photos/depannage-remarquage-01.jpg", alt: "Dépannage automobile - intervention sur route" },
@@ -51,15 +52,12 @@ export default function PhotoGallery() {
         </div>
 
         <div className="text-center mt-10">
-          <a
-            href={PHONE_HREF}
-            className="inline-flex items-center gap-2 text-primary font-semibold hover:underline text-lg"
-          >
+          <PhoneLink className="inline-flex items-center gap-2 text-primary font-semibold hover:underline text-lg">
             Besoin d&apos;aide ? Appelez le {PHONE}
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </a>
+          </PhoneLink>
         </div>
       </div>
     </section>

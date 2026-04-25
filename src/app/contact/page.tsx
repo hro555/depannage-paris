@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PHONE, PHONE_HREF, EMAIL, ADDRESS } from "@/lib/constants";
+import PhoneLink from "@/components/PhoneLink";
 
 export const metadata: Metadata = {
   title: "Contact | Dépannage Auto Paris",
@@ -38,9 +39,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-white">Téléphone</h3>
-                  <a href={PHONE_HREF} className="text-primary text-lg font-semibold hover:underline">
+                  <PhoneLink className="text-primary text-lg font-semibold hover:underline">
                     {PHONE}
-                  </a>
+                  </PhoneLink>
                   <p className="text-sm text-white/40 mt-1">Disponible 24h/24 - 7j/7</p>
                 </div>
               </div>
