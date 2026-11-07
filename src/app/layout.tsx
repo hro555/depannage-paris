@@ -61,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
         <Script
           id="cookieyes"
-          src="https://cdn-cookieyes.com/client_data/851647ee0a87e14f540d69b5/script.js"
+          src="https://cdn-cookieyes.com/client_data/53b539012b283802edbfe1d7baf7acd6/script.js"
           strategy="beforeInteractive"
         />
       </head>
